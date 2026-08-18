@@ -148,23 +148,13 @@ ul{list-style:none}
 
 /* ===== WHY US ===== */
 .whyus{background:var(--bg-section)}
-.whyus-inner{display:grid;grid-template-columns:1.1fr 0.9fr;gap:4rem;align-items:start}
+.whyus-inner{display:grid;grid-template-columns:1fr;gap:4rem;align-items:start;max-width:800px}
 .whyus-intro{font-size:1.05rem;color:var(--text-secondary);line-height:1.7;margin-bottom:2.5rem}
 .whyus-list{display:flex;flex-direction:column;gap:1.5rem}
 .whyus-list li{display:flex;gap:1rem;align-items:flex-start}
 .whyus-list .check-icon{flex-shrink:0;margin-top:.15rem}
 .whyus-list strong{display:block;font-size:.95rem;font-weight:700;color:var(--text-primary);margin-bottom:.25rem}
 .whyus-list span{font-size:.875rem;color:var(--text-secondary);line-height:1.6}
-.experience-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);padding:2rem;position:sticky;top:calc(var(--nav-height) + 2rem)}
-.exp-header{display:flex;align-items:center;gap:1rem;margin-bottom:2rem}
-.exp-year{font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--accent)}
-.exp-line{flex:1;height:2px;background:linear-gradient(90deg,var(--accent),var(--border))}
-.exp-milestones{display:flex;flex-direction:column;gap:.75rem}
-.milestone{display:flex;align-items:center;gap:1rem;padding:.75rem;border-radius:var(--radius-sm);border:1px solid transparent;transition:all .3s}
-.milestone:hover,.milestone.active{background:rgba(201,168,76,0.05);border-color:rgba(201,168,76,0.15)}
-.ms-year{font-family:var(--font-display);font-size:.85rem;font-weight:700;color:var(--accent);min-width:48px}
-.ms-text{font-size:.875rem;color:var(--text-secondary)}
-.milestone.active .ms-text{color:var(--text-primary);font-weight:600}
 
 /* ===== ABOUT ===== */
 .about-content{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
@@ -180,7 +170,7 @@ ul{list-style:none}
 
 /* ===== SECTORS ===== */
 .sectors{background:var(--bg-dark)}
-.sectors-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.sectors-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
 .sector-item{text-align:center;padding:2.5rem 1.5rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);transition:all .4s}
 .sector-item:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:0 8px 32px rgba(201,168,76,0.08)}
 .sector-icon{width:48px;height:48px;margin:0 auto 1rem;color:var(--accent)}
@@ -240,7 +230,7 @@ ul{list-style:none}
   .projects-grid{grid-template-columns:1fr}
   .project-card-large{grid-column:span 1}
   .project-card-large .project-img{height:240px}
-  .whyus-inner{grid-template-columns:1fr;gap:2.5rem}
+  .sectors-grid{grid-template-columns:repeat(2,1fr)}
   .experience-card{position:static}
   .about-content{grid-template-columns:1fr;gap:2.5rem}
   .about-values{grid-template-columns:1fr 1fr}
