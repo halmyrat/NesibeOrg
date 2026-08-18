@@ -1,32 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
   <defs>
-    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#c9a84c"/>
-      <stop offset="50%" stop-color="#ddc06a"/>
-      <stop offset="100%" stop-color="#c9a84c"/>
-    </linearGradient>
-    <linearGradient id="darkGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0f1e35"/>
-      <stop offset="100%" stop-color="#0a1628"/>
+    <linearGradient id="tealG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00a19c"/>
+      <stop offset="100%" stop-color="#00c4be"/>
     </linearGradient>
   </defs>
-
-  <!-- Logo Mark - N monogram in rounded square -->
-  <rect x="4" y="12" width="76" height="76" rx="14" fill="url(#goldGrad)"/>
-
-  <!-- N letter with engineering precision lines -->
-  <path d="M24 68V32h6l24 28V32h6v36h-6L30 40v28h-6z" fill="#0a1222"/>
-
-  <!-- Small engineering detail lines -->
-  <line x1="22" y1="28" x2="62" y2="28" stroke="#0a1222" stroke-width="1" opacity="0.3"/>
-  <line x1="22" y1="72" x2="62" y2="72" stroke="#0a1222" stroke-width="1" opacity="0.3"/>
-
-  <!-- Company Name -->
-  <text x="100" y="52" font-family="Georgia, 'Playfair Display', serif" font-size="38" font-weight="700" fill="#e8edf5" letter-spacing="3">NESIBE</text>
-
-  <!-- Divider line -->
-  <line x1="100" y1="62" x2="270" y2="62" stroke="url(#goldGrad)" stroke-width="1.5"/>
-
-  <!-- Tagline -->
-  <text x="100" y="80" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#c9a84c" letter-spacing="5">EPC &amp; SERVICES</text>
+  <rect x="4" y="12" width="76" height="76" rx="14" fill="url(#tealG)"/>
+  <path d="M24 68V32h6l24 28V32h6v36h-6L30 40v28h-6z" fill="#ffffff"/>
+  <text x="100" y="52" font-family="Georgia, 'Playfair Display', serif" font-size="38" font-weight="700" fill="#2d3436" letter-spacing="3">NESIBE</text>
+  <line x1="100" y1="62" x2="270" y2="62" stroke="url(#tealG)" stroke-width="1.5"/>
+  <text x="100" y="80" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#00a19c" letter-spacing="5">EPC &amp; SERVICES</text>
 </svg>
