@@ -200,8 +200,8 @@ ul{list-style:none}
 .partners-track{display:flex;width:max-content;animation:marquee 25s linear infinite}
 .partners-track:hover{animation-play-state:paused}
 .partners-slide{display:flex;flex-shrink:0;align-items:center;gap:4rem;padding:0 2rem}
-.partner-logo{height:60px;width:180px;flex:0 0 180px;object-fit:contain;opacity:.45;filter:grayscale(100%);transition:all .4s ease;border-radius:4px}
-.partner-logo:hover{opacity:1;filter:grayscale(0%)}
+.partner-logo{height:90px;width:220px;flex:0 0 220px;object-fit:contain;opacity:.45;filter:grayscale(100%);transition:all .4s ease;border-radius:4px;transform:scale(1)}
+.partner-logo:hover{opacity:1;filter:grayscale(0%);transform:scale(1.12)}
 @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ===== CONTACT ===== */
