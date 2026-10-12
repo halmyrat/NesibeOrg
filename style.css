@@ -200,8 +200,12 @@ ul{list-style:none}
 .partners-track{display:flex;width:max-content;animation:marquee 25s linear infinite}
 .partners-track:hover{animation-play-state:paused}
 .partners-slide{display:flex;flex-shrink:0;align-items:center;gap:4rem;padding:0 2rem}
-.partner-logo{height:90px;width:220px;flex:0 0 220px;object-fit:contain;opacity:.45;filter:grayscale(100%);transition:all .4s ease;border-radius:4px;transform:scale(1)}
-.partner-logo:hover{opacity:1;filter:grayscale(0%);transform:scale(1.12)}
+.partner-item{display:flex;flex-direction:column;align-items:center;gap:.5rem;flex:0 0 220px;transition:transform .4s ease;cursor:default}
+.partner-item:hover{transform:scale(1.1)}
+.partner-logo{height:90px;width:220px;object-fit:contain;opacity:.45;filter:grayscale(100%);transition:all .4s ease;border-radius:4px}
+.partner-item:hover .partner-logo{opacity:1;filter:grayscale(0%)}
+.partner-name{font-size:.75rem;font-weight:600;color:var(--text-muted);letter-spacing:.5px;text-transform:uppercase;transition:color .4s ease}
+.partner-item:hover .partner-name{color:var(--teal)}
 @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ===== CONTACT ===== */
