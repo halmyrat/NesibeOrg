@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60">
-  <text x="110" y="32" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="800" fill="#1a1a2e" text-anchor="middle" letter-spacing="2">TÜRKMENNEBIT</text>
-  <text x="110" y="48" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle" letter-spacing="3">STATE CONCERN</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <circle cx="24" cy="30" r="18" fill="#1a1a2e"/>
+  <path d="M20 38V22c0 0 4-6 8 0v16" fill="none" stroke="#ffd700" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="24" cy="18" r="3" fill="#ffd700"/>
+  <text x="52" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="800" fill="#1a1a2e" letter-spacing="1.5">TÜRKMENNEBIT</text>
+  <text x="52" y="46" font-family="Arial,sans-serif" font-size="7.5" fill="#888" letter-spacing="2.5">STATE CONCERN</text>
 </svg>
