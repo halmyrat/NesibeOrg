@@ -199,8 +199,8 @@ ul{list-style:none}
 .partners .section-title{margin-bottom:2.5rem}
 .partners-track{display:flex;width:max-content;animation:marquee 30s linear infinite}
 .partners-track:hover{animation-play-state:paused}
-.partners-slide{display:flex;align-items:center;gap:4rem;padding:0 2rem}
-.partner-logo{height:45px;width:auto;opacity:.45;filter:grayscale(100%);transition:all .4s ease}
+.partners-slide{display:flex;align-items:center;gap:4rem;padding:0 2rem;flex-shrink:0}
+.partner-logo{height:45px;width:160px;flex-shrink:0;object-fit:contain;opacity:.45;filter:grayscale(100%);transition:all .4s ease}
 .partner-logo:hover{opacity:1;filter:grayscale(0%)}
 @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
