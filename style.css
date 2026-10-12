@@ -43,7 +43,9 @@ ul{list-style:none}
 .navbar.scrolled{background:rgba(255,255,255,0.97);backdrop-filter:blur(20px);box-shadow:0 1px 12px rgba(0,0,0,0.06);padding:.35rem 0}
 .navbar.scrolled .nav-link{color:var(--text-body)}
 .navbar.scrolled .nav-link:hover,.navbar.scrolled .nav-link.active{color:var(--teal)}
-.navbar.scrolled .nav-logo-img{filter:none}
+.nav-logo-dark{display:none}
+.navbar.scrolled .nav-logo-white{display:none}
+.navbar.scrolled .nav-logo-dark{display:block}
 .navbar.scrolled .hamburger span{background:var(--text-dark)}
 .navbar.scrolled .lang-btn{color:var(--text-muted)}
 .navbar.scrolled .lang-btn.active{background:var(--teal);color:var(--white)}
